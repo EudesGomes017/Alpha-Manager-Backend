@@ -1,0 +1,17 @@
+D:\Projetos Dotnet\Alpha.Application\bin\Debug\net9.0\Alpha.Application.deps.json
+D:\Projetos Dotnet\Alpha.Application\bin\Debug\net9.0\Alpha.Application.runtimeconfig.json
+D:\Projetos Dotnet\Alpha.Application\bin\Debug\net9.0\Alpha.Application.dll
+D:\Projetos Dotnet\Alpha.Application\bin\Debug\net9.0\Alpha.Application.pdb
+D:\Projetos Dotnet\Alpha.Application\bin\Debug\net9.0\Alpha.Domain.dll
+D:\Projetos Dotnet\Alpha.Application\bin\Debug\net9.0\Alpha.Domain.pdb
+D:\Projetos Dotnet\Alpha.Application\obj\Debug\net9.0\Alpha.Application.csproj.AssemblyReference.cache
+D:\Projetos Dotnet\Alpha.Application\obj\Debug\net9.0\Alpha.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos Dotnet\Alpha.Application\obj\Debug\net9.0\Alpha.Application.AssemblyInfoInputs.cache
+D:\Projetos Dotnet\Alpha.Application\obj\Debug\net9.0\Alpha.Application.AssemblyInfo.cs
+D:\Projetos Dotnet\Alpha.Application\obj\Debug\net9.0\Alpha.Application.csproj.CoreCompileInputs.cache
+D:\Projetos Dotnet\Alpha.Application\obj\Debug\net9.0\Alpha.Ap.9D5FF97A.Up2Date
+D:\Projetos Dotnet\Alpha.Application\obj\Debug\net9.0\Alpha.Application.dll
+D:\Projetos Dotnet\Alpha.Application\obj\Debug\net9.0\refint\Alpha.Application.dll
+D:\Projetos Dotnet\Alpha.Application\obj\Debug\net9.0\Alpha.Application.pdb
+D:\Projetos Dotnet\Alpha.Application\obj\Debug\net9.0\Alpha.Application.genruntimeconfig.cache
+D:\Projetos Dotnet\Alpha.Application\obj\Debug\net9.0\ref\Alpha.Application.dll

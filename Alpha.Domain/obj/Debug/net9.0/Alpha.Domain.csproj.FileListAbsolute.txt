@@ -1,0 +1,12 @@
+D:\Projetos Dotnet\Alpha.Domain\bin\Debug\net9.0\Alpha.Domain.deps.json
+D:\Projetos Dotnet\Alpha.Domain\bin\Debug\net9.0\Alpha.Domain.dll
+D:\Projetos Dotnet\Alpha.Domain\bin\Debug\net9.0\Alpha.Domain.pdb
+D:\Projetos Dotnet\Alpha.Domain\obj\Debug\net9.0\Alpha.Domain.csproj.AssemblyReference.cache
+D:\Projetos Dotnet\Alpha.Domain\obj\Debug\net9.0\Alpha.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos Dotnet\Alpha.Domain\obj\Debug\net9.0\Alpha.Domain.AssemblyInfoInputs.cache
+D:\Projetos Dotnet\Alpha.Domain\obj\Debug\net9.0\Alpha.Domain.AssemblyInfo.cs
+D:\Projetos Dotnet\Alpha.Domain\obj\Debug\net9.0\Alpha.Domain.csproj.CoreCompileInputs.cache
+D:\Projetos Dotnet\Alpha.Domain\obj\Debug\net9.0\Alpha.Domain.dll
+D:\Projetos Dotnet\Alpha.Domain\obj\Debug\net9.0\refint\Alpha.Domain.dll
+D:\Projetos Dotnet\Alpha.Domain\obj\Debug\net9.0\Alpha.Domain.pdb
+D:\Projetos Dotnet\Alpha.Domain\obj\Debug\net9.0\ref\Alpha.Domain.dll
