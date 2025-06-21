@@ -1,0 +1,122 @@
+[
+  {
+    "ContainingType": "Alpha.Api.Controllers.ProductsController",
+    "Method": "Get",
+    "RelativePath": "api/v1/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Barcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortByPrice",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageBytes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Alpha.Api.Controllers.ProductsController",
+    "Method": "Create",
+    "RelativePath": "api/v1/products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Alpha.Application.Products.Commands.CreateProductCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Alpha.Api.Controllers.ProductsController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/products/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Alpha.Api.Controllers.ProductsController",
+    "Method": "Update",
+    "RelativePath": "api/v1/products/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Alpha.Application.Products.Commands.UpdateProductCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Alpha.Api.Controllers.ProductsController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/products/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Alpha.Api.Controllers.ProductsController",
+    "Method": "SyncFromFakeStore",
+    "RelativePath": "api/v1/products/sync-fakestore",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
