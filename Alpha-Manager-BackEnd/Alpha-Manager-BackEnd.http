@@ -1,0 +1,6 @@
+@Alpha_Manager_BackEnd_HostAddress = http://localhost:5240
+
+GET {{Alpha_Manager_BackEnd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

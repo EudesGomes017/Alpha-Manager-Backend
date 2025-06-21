@@ -1,0 +1,70 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: AlphaDb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - my_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d AlphaDb"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com  # Email de login padrão
+      PGADMIN_DEFAULT_PASSWORD: admin         # Senha de login padrão
+    ports:
+      - "5050:80"  # Porta para acessar o pgAdmin
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin  # Volume para persistir configurações
+    networks:
+      - my_network
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+  alpha.api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: alpha.api
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ConnectionStrings__DefaultConnection: "Host=postgres;Database=AlphaDb;Port=5432;Username=postgres;Password=mysecretpassword;Trust Server Certificate=true;Pooling=true;"
+    ports:
+      - "5000:80"
+    networks:
+      - my_network
+    restart: unless-stopped
+    healthcheck:
+      test: [ "CMD-SHELL", "curl -f http://localhost/health || exit 1" ]
+      interval: 30s
+      timeout: 15s
+      retries: 5
+
+networks:
+  my_network:
+    driver: bridge
+    attachable: true
+
+volumes:
+  postgres_data:
+    driver: local
+  pgadmin_data:
+    driver: local
