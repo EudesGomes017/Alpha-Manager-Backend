@@ -30,6 +30,24 @@ alpha-manager-api/
 ├── Alpha.Persistence/ # Acesso a dados (EF Core, Repositórios, Migrations)
 ├── Alpha.Persistences.FakeStoreService/ # Integração externa com Fake Store API
 
+CQRS — Command Query Responsibility Segregation
+CQRS separa as operações de leitura (Query) das operações de escrita (Command).
+
+Command: operações que alteram o estado da aplicação.
+➡️ Ex.: CreateProductCommand, UpdateProductCommand, DeleteProductCommand.
+
+Query: operações que apenas consultam dados, sem alterar.
+➡️ Ex.: GetProductByIdQuery, GetProductsQuery.
+
+Benefícios do CQRS:
+Código mais limpo e organizado
+
+Cada operação tem uma responsabilidade única
+
+Fácil manutenção de regras de negócio isoladamente
+
+
+
 
 ---
 
