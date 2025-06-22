@@ -2,6 +2,8 @@
 
 API REST construída em **ASP.NET Core**, responsável pela gestão de produtos e integração com a **Fake Store API**.
 
+![Demonstração Frontend](frontGif.gif)
+
 ✔️ Essa API serve como backend do projeto **Alpha Manager**, oferecendo CRUD completo, sincronização com dados externos e estruturada com **Clean Architecture** e **Entity Framework**.
 
 ---
