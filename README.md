@@ -57,7 +57,7 @@ Fácil manutenção de regras de negócio isoladamente
 
 | Camada         | Tecnologias                                      |
 |----------------|--------------------------------------------------|
-| Framework      | ASP.NET Core 8+                                  |
+| Framework      | ASP.NET Core 9                                  |
 | ORM            | Entity Framework Core + PostgreSQL               |
 | Integração API | HTTPClient para Fake Store API                   |
 | Design Pattern | Clean Architecture + CQRS + Mediator (MediatR)   |
