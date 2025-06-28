@@ -95,7 +95,7 @@ Fácil manutenção de regras de negócio isoladamente
 
 ### 🔧 Pré-requisitos
 
-- [.NET SDK 8+](https://dotnet.microsoft.com/en-us/download)
+- [.NET SDK 9](https://dotnet.microsoft.com/en-us/download)
 - [PostgreSQL](https://www.postgresql.org/) rodando localmente ou remoto
 - Editor: Visual Studio, VS Code, Rider ou outro
 
@@ -141,14 +141,10 @@ A API estará disponível em:
 
 ✅ Criar Produto
 http
-Copiar
-Editar
 POST /api/v1/products
 Payload:
 
 json
-Copiar
-Editar
 {
   "name": "Monitor UltraWide",
   "price": 999.90,
@@ -156,9 +152,6 @@ Editar
   "imageBytes": "https://via.placeholder.com/150"
 }
 🛠️ Desenvolvimento com Docker (Opcional)
-bash
-Copiar
-Editar
 docker-compose up --build
 Cria o container da API + banco PostgreSQL.
 
